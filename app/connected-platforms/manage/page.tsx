@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { usePlatformStore } from '@/stores/platformStore';
 import { PlatformSelectionModal } from '@/components/platforms/PlatformSelectionModal';
@@ -46,7 +46,7 @@ const platformLabels: Record<Platform, string> = {
   'email': 'Email',
 };
 
-export default function ManagePlatformPage() {
+function ManagePlatformContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const platformParam = searchParams.get('platform') as Platform | null;
@@ -363,5 +363,19 @@ export default function ManagePlatformPage() {
         onClose={() => setIsPlatformModalOpen(false)}
       />
     </div>
+  );
+}
+
+export default function ManagePlatformPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex-1 flex items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <p className="text-gray-500">Loading...</p>
+        </div>
+      </div>
+    }>
+      <ManagePlatformContent />
+    </Suspense>
   );
 }
