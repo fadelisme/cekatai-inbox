@@ -1,0 +1,212 @@
+[
+  {
+    "id": "conv-1",
+    "platform": "instagram-dm",
+    "status": "unassigned",
+    "customerId": "cust-1",
+    "customerName": "Sarah Johnson",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+    "lastMessage": {
+      "text": "Hi! I'm interested in your new collection. When will it be available?",
+      "timestamp": "2026-01-07T16:30:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 2,
+    "labels": ["sales", "urgent"],
+    "createdAt": "2026-01-07T16:25:00Z",
+    "updatedAt": "2026-01-07T16:30:00Z"
+  },
+  {
+    "id": "conv-2",
+    "platform": "instagram-comment",
+    "status": "assigned",
+    "customerId": "cust-2",
+    "customerName": "Mike Chen",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike",
+    "lastMessage": {
+      "text": "Great product! When will this be back in stock?",
+      "timestamp": "2026-01-07T15:45:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 0,
+    "assignedTo": {
+      "id": "staff-1",
+      "name": "John Doe",
+      "email": "john@fadhelai.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      "role": "agent",
+      "isOnline": true
+    },
+    "labels": ["product-inquiry"],
+    "createdAt": "2026-01-07T15:40:00Z",
+    "updatedAt": "2026-01-07T15:45:00Z"
+  },
+  {
+    "id": "conv-3",
+    "platform": "whatsapp",
+    "status": "assigned",
+    "customerId": "cust-3",
+    "customerName": "Emily Rodriguez",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emily",
+    "lastMessage": {
+      "text": "Thank you for your help!",
+      "timestamp": "2026-01-07T14:20:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 0,
+    "assignedTo": {
+      "id": "staff-2",
+      "name": "Jane Smith",
+      "email": "jane@fadhelai.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane",
+      "role": "agent",
+      "isOnline": false
+    },
+    "labels": ["support"],
+    "createdAt": "2026-01-07T13:10:00Z",
+    "updatedAt": "2026-01-07T14:20:00Z"
+  },
+  {
+    "id": "conv-4",
+    "platform": "facebook-messenger",
+    "status": "unassigned",
+    "customerId": "cust-4",
+    "customerName": "David Kim",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+    "lastMessage": {
+      "text": "I need help with my order #12345",
+      "timestamp": "2026-01-07T16:15:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 1,
+    "labels": ["order-issue"],
+    "createdAt": "2026-01-07T16:15:00Z",
+    "updatedAt": "2026-01-07T16:15:00Z"
+  },
+  {
+    "id": "conv-5",
+    "platform": "facebook-comment",
+    "status": "unassigned",
+    "customerId": "cust-5",
+    "customerName": "Lisa Martinez",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Lisa",
+    "lastMessage": {
+      "text": "This product doesn't work as advertised 😞",
+      "timestamp": "2026-01-07T16:00:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 1,
+    "labels": ["complaint", "urgent"],
+    "createdAt": "2026-01-07T16:00:00Z",
+    "updatedAt": "2026-01-07T16:00:00Z"
+  },
+  {
+    "id": "conv-6",
+    "platform": "instagram-dm",
+    "status": "resolved",
+    "customerId": "cust-6",
+    "customerName": "Alex Thompson",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+    "lastMessage": {
+      "text": "Perfect, thank you!",
+      "timestamp": "2026-01-07T12:00:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 0,
+    "assignedTo": {
+      "id": "staff-1",
+      "name": "John Doe",
+      "email": "john@fadhelai.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      "role": "agent",
+      "isOnline": true
+    },
+    "labels": ["resolved"],
+    "createdAt": "2026-01-07T11:30:00Z",
+    "updatedAt": "2026-01-07T12:00:00Z"
+  },
+  {
+    "id": "conv-7",
+    "platform": "email",
+    "status": "assigned",
+    "customerId": "cust-7",
+    "customerName": "Rachel Green",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rachel",
+    "lastMessage": {
+      "text": "Can you provide more details about the shipping options?",
+      "timestamp": "2026-01-07T15:30:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 1,
+    "assignedTo": {
+      "id": "staff-2",
+      "name": "Jane Smith",
+      "email": "jane@fadhelai.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane",
+      "role": "agent",
+      "isOnline": false
+    },
+    "labels": ["shipping"],
+    "createdAt": "2026-01-07T14:00:00Z",
+    "updatedAt": "2026-01-07T15:30:00Z"
+  },
+  {
+    "id": "conv-8",
+    "platform": "webchat",
+    "status": "unassigned",
+    "customerId": "cust-8",
+    "customerName": "Tom Wilson",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tom",
+    "lastMessage": {
+      "text": "Hello, I have a question about pricing",
+      "timestamp": "2026-01-07T16:35:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 1,
+    "labels": ["pricing"],
+    "createdAt": "2026-01-07T16:35:00Z",
+    "updatedAt": "2026-01-07T16:35:00Z"
+  },
+  {
+    "id": "conv-9",
+    "platform": "instagram-comment",
+    "status": "assigned",
+    "customerId": "cust-9",
+    "customerName": "Nina Patel",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Nina",
+    "lastMessage": {
+      "text": "Love this! Where can I buy it?",
+      "timestamp": "2026-01-07T14:50:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 0,
+    "assignedTo": {
+      "id": "staff-1",
+      "name": "John Doe",
+      "email": "john@fadhelai.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      "role": "agent",
+      "isOnline": true
+    },
+    "labels": ["sales"],
+    "createdAt": "2026-01-07T14:50:00Z",
+    "updatedAt": "2026-01-07T14:50:00Z"
+  },
+  {
+    "id": "conv-10",
+    "platform": "whatsapp",
+    "status": "unassigned",
+    "customerId": "cust-10",
+    "customerName": "Carlos Santos",
+    "customerAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos",
+    "lastMessage": {
+      "text": "Hola! I need information about delivery to Spain",
+      "timestamp": "2026-01-07T16:10:00Z",
+      "isFromCustomer": true
+    },
+    "unreadCount": 1,
+    "labels": ["international"],
+    "createdAt": "2026-01-07T16:10:00Z",
+    "updatedAt": "2026-01-07T16:10:00Z"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cust-1",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1 (555) 123-4567",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+    "platform": "instagram-dm",
+    "tags": ["VIP", "Repeat Customer"],
+    "notes": "Interested in new collections. Very responsive and friendly.",
+    "totalConversations": 5,
+    "lastContactedAt": "2026-01-07T16:30:00Z"
+  },
+  {
+    "id": "cust-2",
+    "name": "Mike Chen",
+    "email": "mike.chen@email.com",
+    "phone": "+1 (555) 234-5678",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike",
+    "platform": "instagram-comment",
+    "tags": ["New Customer"],
+    "notes": "Interested in product availability. Requested restock notification.",
+    "totalConversations": 1,
+    "lastContactedAt": "2026-01-07T15:45:00Z"
+  },
+  {
+    "id": "cust-3",
+    "name": "Emily Rodriguez",
+    "email": "emily.r@email.com",
+    "phone": "+1 (555) 345-6789",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emily",
+    "platform": "whatsapp",
+    "tags": ["Support"],
+    "notes": "Had an issue with order #ORD-2024-1234. Replacement processed.",
+    "totalConversations": 3,
+    "lastContactedAt": "2026-01-07T14:20:00Z"
+  },
+  {
+    "id": "cust-4",
+    "name": "David Kim",
+    "email": "david.kim@email.com",
+    "phone": "+1 (555) 456-7890",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+    "platform": "facebook-messenger",
+    "tags": ["Order Issue"],
+    "notes": "Needs help with order #12345",
+    "totalConversations": 1,
+    "lastContactedAt": "2026-01-07T16:15:00Z"
+  },
+  {
+    "id": "cust-5",
+    "name": "Lisa Martinez",
+    "email": "lisa.martinez@email.com",
+    "phone": "+1 (555) 567-8901",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Lisa",
+    "platform": "facebook-comment",
+    "tags": ["Complaint", "Urgent"],
+    "notes": "Not satisfied with product. Requires immediate attention.",
+    "totalConversations": 1,
+    "lastContactedAt": "2026-01-07T16:00:00Z"
+  },
+  {
+    "id": "cust-6",
+    "name": "Alex Thompson",
+    "email": "alex.t@email.com",
+    "phone": "+1 (555) 678-9012",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+    "platform": "instagram-dm",
+    "tags": ["Resolved"],
+    "notes": "Asked about return policy. Question answered satisfactorily.",
+    "totalConversations": 2,
+    "lastContactedAt": "2026-01-07T12:00:00Z"
+  },
+  {
+    "id": "cust-7",
+    "name": "Rachel Green",
+    "email": "rachel.green@boutique.com",
+    "phone": "+1 (555) 789-0123",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rachel",
+    "platform": "email",
+    "tags": ["Wholesale", "VIP"],
+    "notes": "Boutique owner interested in bulk orders. Potential high-value customer.",
+    "totalConversations": 4,
+    "lastContactedAt": "2026-01-07T15:30:00Z"
+  },
+  {
+    "id": "cust-8",
+    "name": "Tom Wilson",
+    "email": "tom.wilson@email.com",
+    "phone": "+1 (555) 890-1234",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tom",
+    "platform": "webchat",
+    "tags": ["Pricing Inquiry"],
+    "notes": "Asking about pricing information",
+    "totalConversations": 1,
+    "lastContactedAt": "2026-01-07T16:35:00Z"
+  },
+  {
+    "id": "cust-9",
+    "name": "Nina Patel",
+    "email": "nina.patel@email.com",
+    "phone": "+1 (555) 901-2345",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Nina",
+    "platform": "instagram-comment",
+    "tags": ["Sales", "Positive"],
+    "notes": "Enthusiastic about products. Potential conversion.",
+    "totalConversations": 1,
+    "lastContactedAt": "2026-01-07T14:50:00Z"
+  },
+  {
+    "id": "cust-10",
+    "name": "Carlos Santos",
+    "email": "carlos.santos@email.com",
+    "phone": "+34 612 345 678",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos",
+    "platform": "whatsapp",
+    "tags": ["International", "Spain"],
+    "notes": "Inquiring about international shipping to Spain",
+    "totalConversations": 1,
+    "lastContactedAt": "2026-01-07T16:10:00Z"
+  }
+]

@@ -1,0 +1,211 @@
+{
+  "conv-1": [
+    {
+      "id": "msg-1-1",
+      "conversationId": "conv-1",
+      "senderId": "cust-1",
+      "senderName": "Sarah Johnson",
+      "senderType": "customer",
+      "text": "Hi! I saw your latest post about the new collection.",
+      "timestamp": "2026-01-07T16:25:00Z"
+    },
+    {
+      "id": "msg-1-2",
+      "conversationId": "conv-1",
+      "senderId": "cust-1",
+      "senderName": "Sarah Johnson",
+      "senderType": "customer",
+      "text": "Hi! I'm interested in your new collection. When will it be available?",
+      "timestamp": "2026-01-07T16:30:00Z"
+    }
+  ],
+  "conv-2": [
+    {
+      "id": "msg-2-1",
+      "conversationId": "conv-2",
+      "senderId": "cust-2",
+      "senderName": "Mike Chen",
+      "senderType": "customer",
+      "text": "Great product! When will this be back in stock?",
+      "timestamp": "2026-01-07T15:40:00Z"
+    },
+    {
+      "id": "msg-2-2",
+      "conversationId": "conv-2",
+      "senderId": "staff-1",
+      "senderName": "John Doe",
+      "senderType": "staff",
+      "text": "Hi Mike! Thank you for your interest. We expect it to be back in stock by next week. Would you like me to notify you when it's available?",
+      "timestamp": "2026-01-07T15:42:00Z"
+    },
+    {
+      "id": "msg-2-3",
+      "conversationId": "conv-2",
+      "senderId": "cust-2",
+      "senderName": "Mike Chen",
+      "senderType": "customer",
+      "text": "Yes please! That would be great.",
+      "timestamp": "2026-01-07T15:45:00Z"
+    }
+  ],
+  "conv-3": [
+    {
+      "id": "msg-3-1",
+      "conversationId": "conv-3",
+      "senderId": "cust-3",
+      "senderName": "Emily Rodriguez",
+      "senderType": "customer",
+      "text": "Hi, I have an issue with my recent order",
+      "timestamp": "2026-01-07T13:10:00Z"
+    },
+    {
+      "id": "msg-3-2",
+      "conversationId": "conv-3",
+      "senderId": "staff-2",
+      "senderName": "Jane Smith",
+      "senderType": "staff",
+      "text": "Hello Emily! I'm sorry to hear that. Can you please provide your order number?",
+      "timestamp": "2026-01-07T13:15:00Z"
+    },
+    {
+      "id": "msg-3-3",
+      "conversationId": "conv-3",
+      "senderId": "cust-3",
+      "senderName": "Emily Rodriguez",
+      "senderType": "customer",
+      "text": "It's #ORD-2024-1234",
+      "timestamp": "2026-01-07T13:20:00Z"
+    },
+    {
+      "id": "msg-3-4",
+      "conversationId": "conv-3",
+      "senderId": "staff-2",
+      "senderName": "Jane Smith",
+      "senderType": "staff",
+      "text": "Thank you! I've looked into your order and I can see the issue. I'll process a replacement for you right away. You should receive it within 3-5 business days.",
+      "timestamp": "2026-01-07T13:45:00Z"
+    },
+    {
+      "id": "msg-3-5",
+      "conversationId": "conv-3",
+      "senderId": "cust-3",
+      "senderName": "Emily Rodriguez",
+      "senderType": "customer",
+      "text": "Thank you for your help!",
+      "timestamp": "2026-01-07T14:20:00Z"
+    }
+  ],
+  "conv-4": [
+    {
+      "id": "msg-4-1",
+      "conversationId": "conv-4",
+      "senderId": "cust-4",
+      "senderName": "David Kim",
+      "senderType": "customer",
+      "text": "I need help with my order #12345",
+      "timestamp": "2026-01-07T16:15:00Z"
+    }
+  ],
+  "conv-5": [
+    {
+      "id": "msg-5-1",
+      "conversationId": "conv-5",
+      "senderId": "cust-5",
+      "senderName": "Lisa Martinez",
+      "senderType": "customer",
+      "text": "This product doesn't work as advertised 😞",
+      "timestamp": "2026-01-07T16:00:00Z"
+    }
+  ],
+  "conv-6": [
+    {
+      "id": "msg-6-1",
+      "conversationId": "conv-6",
+      "senderId": "cust-6",
+      "senderName": "Alex Thompson",
+      "senderType": "customer",
+      "text": "Hi, I'd like to know more about your return policy",
+      "timestamp": "2026-01-07T11:30:00Z"
+    },
+    {
+      "id": "msg-6-2",
+      "conversationId": "conv-6",
+      "senderId": "staff-1",
+      "senderName": "John Doe",
+      "senderType": "staff",
+      "text": "Hi Alex! We offer a 30-day return policy for all items. You can return any item within 30 days of purchase for a full refund, as long as it's in its original condition with tags attached.",
+      "timestamp": "2026-01-07T11:35:00Z"
+    },
+    {
+      "id": "msg-6-3",
+      "conversationId": "conv-6",
+      "senderId": "cust-6",
+      "senderName": "Alex Thompson",
+      "senderType": "customer",
+      "text": "Perfect, thank you!",
+      "timestamp": "2026-01-07T12:00:00Z"
+    }
+  ],
+  "conv-7": [
+    {
+      "id": "msg-7-1",
+      "conversationId": "conv-7",
+      "senderId": "cust-7",
+      "senderName": "Rachel Green",
+      "senderType": "customer",
+      "text": "Hi, I'm interested in ordering a large quantity of your products for my boutique.",
+      "timestamp": "2026-01-07T14:00:00Z"
+    },
+    {
+      "id": "msg-7-2",
+      "conversationId": "conv-7",
+      "senderId": "staff-2",
+      "senderName": "Jane Smith",
+      "senderType": "staff",
+      "text": "Hello Rachel! That's wonderful. We'd be happy to help with bulk orders. We offer wholesale pricing for orders over 50 units.",
+      "timestamp": "2026-01-07T14:30:00Z"
+    },
+    {
+      "id": "msg-7-3",
+      "conversationId": "conv-7",
+      "senderId": "cust-7",
+      "senderName": "Rachel Green",
+      "senderType": "customer",
+      "text": "Can you provide more details about the shipping options?",
+      "timestamp": "2026-01-07T15:30:00Z"
+    }
+  ],
+  "conv-8": [
+    {
+      "id": "msg-8-1",
+      "conversationId": "conv-8",
+      "senderId": "cust-8",
+      "senderName": "Tom Wilson",
+      "senderType": "customer",
+      "text": "Hello, I have a question about pricing",
+      "timestamp": "2026-01-07T16:35:00Z"
+    }
+  ],
+  "conv-9": [
+    {
+      "id": "msg-9-1",
+      "conversationId": "conv-9",
+      "senderId": "cust-9",
+      "senderName": "Nina Patel",
+      "senderType": "customer",
+      "text": "Love this! Where can I buy it?",
+      "timestamp": "2026-01-07T14:50:00Z"
+    }
+  ],
+  "conv-10": [
+    {
+      "id": "msg-10-1",
+      "conversationId": "conv-10",
+      "senderId": "cust-10",
+      "senderName": "Carlos Santos",
+      "senderType": "customer",
+      "text": "Hola! I need information about delivery to Spain",
+      "timestamp": "2026-01-07T16:10:00Z"
+    }
+  ]
+}
